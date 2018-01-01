@@ -1,0 +1,58 @@
+body {
+    width: 100%;
+    height: 100%;
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
+    color: #444;
+    background: #f0f0f0;
+}
+
+
+form {
+    position: fixed;
+    width: 340px;
+    height: 220px;
+    top: 50%;
+    left: 50%;
+    margin-top: -110px;
+    margin-left: -170px;
+    background: #fff;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .1);
+}
+ 
+ 
+label {
+    color: #555;
+    display: inline-block;
+    margin-left: 18px;
+    padding-top: 10px;
+    font-size: 14px;
+}
+ 
+ 
+input {
+    font-size: 12px;
+    outline: none;
+    padding-left: 10px;
+    margin: 10px;
+    margin-top: 12px;
+    margin-left: 18px;
+    width: 290px;
+    height: 35px;
+}
+
+
+#loginButton {
+    margin-top: 20px;
+    width: 80px;
+    height: 30px;
+}
+
+
+#signUpButton {
+    float:right;
+    margin-top: 20px;
+    width: 100px;
+    height: 30px;
+}

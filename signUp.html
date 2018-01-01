@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Assignment 2 - Sign Up</title>
+  <link rel="stylesheet" href="signUp.css" type="text/css"/>
+</head>
+
+<body>
+  <h1>TWITTER ASSIGNMENT</h1>
+
+  <form action = "signup.php" method="post" enctype="multipart/form-data">
+    <label>Account Username</label>
+    <input type="text" name="name" placeholder="username"/><br>
+    <label> Account password</label>
+    <input type="text" name="password" placeholder="password"/><br>
+    <label> Re-enter password</label>
+    <input type="text" name="re-confirm" placeholder="re-enter password"/><br>
+    <input type="file" name="userfile" id ="userPic">
+
+
+    <!--
+    <label> Twitter account username</label>
+    <input type="text" name="twitter" placeholder="Phone, email, or username"/><br>
+    -->
+    <input type="submit" value="create account"/>
+  </form>
+</body>
+</html>
